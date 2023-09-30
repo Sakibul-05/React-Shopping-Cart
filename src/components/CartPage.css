@@ -10,7 +10,7 @@
 }
  
 .cart-items-container{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     max-width: 1200px;
     /* gap: 1%; */
     width: 100%;
@@ -22,7 +22,7 @@
 }
  
 .cart-items{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display : flex ;
     flex-wrap: wrap;
     justify-content: center;
