@@ -1,0 +1,26 @@
+.navbar-container{
+   height: 3rem;
+    background-color: #000000;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+    position: sticky;
+    top: 0;
+    
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .brand-name h3{
+    /* border: 1px solid #ffff; */
+    cursor: pointer;
+}
+.nav-link{
+    text-decoration: none;
+    color: #ffff;
+    margin-left: 2rem;
+}

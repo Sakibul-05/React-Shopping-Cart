@@ -1,0 +1,48 @@
+.HomePage{
+    /* border: 2px solid red; */
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+.products-container{
+    /* border: 2px solid red; */
+    padding: 2rem 5rem;
+    display : flex ;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.item{
+    border: 2px solid rgb(0, 0, 0);
+    width: 200px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.item .img-box{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.item img{
+    /* width:100%;    
+    height:200px; */
+    border-radius: 8px;
+    width: 100%; /* Make the image take up 100% of the container width */
+    height: 100%; /* Make the image take up 100% of the container height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+.desc-box p{
+    margin: 5px 0;
+}
+.button-box button{
+    border: none;
+    width: 100%;
+    height: 2rem;
+    background-color: #000000;
+    color: #ffff;
+    cursor: pointer;
+}
